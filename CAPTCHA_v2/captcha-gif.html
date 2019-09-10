@@ -8,7 +8,7 @@ canvas {
   border: black 1px solid;
 }
   </style>
-  <script src="../library/gif.js"></script>
+  <script src="./library/gif.js"></script>
 </head>
 
 <body>
@@ -119,7 +119,7 @@ void function() {
       repeat: 0,
       workers: 2,
       quality: 10,
-      workerScript: '../library/gif.worker.js'
+      workerScript: './library/gif.worker.js'
     });
     var canvasTemp = document.createElement('canvas');
     canvasTemp.width = canvas.width;
